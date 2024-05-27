@@ -1,28 +1,41 @@
-*{
-    width: full
-    ;
-}
-.posts {
+* {
+    width: 100%;
+  }
+  
+  .posts {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-}
-
-.icon {
+  }
+  
+  .icon {
+    width: auto;
     color: rgb(109, 125, 168);
-    font-size: 3rem;
+    font-size: 2rem;
     border: 2px solid rgb(109, 125, 168);
     border-radius: 50%;
-}
+  }
 
-.noPost {
+  .link{
+    font-size: small;
+    color: black;
+  }
+  
+  .noPost {
     margin: auto;
     text-align: center;
     font-size: 3rem;
     display: flex;
     flex-flow: column nowrap;
-    &:first-child {
-        color: rgb(109, 125, 168);
-    }
-}
+    color: black;
+  }
+  
+  .noPost:first-child {
+    color: rgb(109, 125, 168);
+  }
+  
+  .addPost {
+    color: black;
+  }
+  

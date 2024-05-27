@@ -72,6 +72,11 @@ export default function Topbar() {
                         REGISTER
                       </Link>
                     </li>
+                    <li className="topListItem">
+                      <Link className="link" to="/register">
+                        Chat Bot
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               )

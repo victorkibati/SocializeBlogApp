@@ -6,11 +6,11 @@
 }
 
 .taggedPosts {
-    color: rgb(26, 135, 99);
+    color: black;
     margin-bottom: 3rem;
 }
 
 .noPosts {
-    color: rgb(166, 7, 7);
+    color: rgb(109, 125, 168);
     margin-top: 5rem;
 }

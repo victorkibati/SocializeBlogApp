@@ -12,7 +12,7 @@ export default function Posts() {
   if (!posts || posts.length === 0) {
     postContent = (
       <div className="noPost">
-        <h1>Add a post</h1>
+        <h1 className="addPost">Add a post</h1>
         <Link className="link" to="/write">
           <i className="icon fa-solid fa-plus"></i>
         </Link>

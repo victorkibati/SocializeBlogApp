@@ -30,7 +30,7 @@ export default function Register() {
           <label htmlFor="username">Profile Picture</label>
           <input id="profile" className="registerInput" type="text" placeholder="profile url.." onChange={handleChange} />
           <label htmlFor="username">Username</label>
-          <input id="username" className="registerInput" type="text" placeholder="FurryLover1" onChange={handleChange} />
+          <input id="username" className="registerInput" type="text" placeholder="Username" onChange={handleChange} />
           <label htmlFor="email">Email</label>
           <input id="email" className="registerInput" type="email" placeholder="Enter your email..." onChange={handleChange} />
           <label htmlFor="password">Password</label>

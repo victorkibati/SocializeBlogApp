@@ -67,7 +67,7 @@
   align-items: center;
   width: 100%;
   padding: 10px 20px;
-  background-color: white;
+  background-color: rgb(166, 172, 195);
 }
 
 .topCenter {
@@ -78,7 +78,7 @@
 
 .topList {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -86,8 +86,8 @@
 
 .topListItem {
   margin-right: clamp(0.5rem,20px,1.5rem);
-  font-size: clamp(0.4rem, 18px, 1rem);
-  font-weight: 300;
+  font-size: clamp(0.5rem, 18px, 1rem);
+  font-weight: 400;
   cursor: pointer;
   text-transform: uppercase;
 }

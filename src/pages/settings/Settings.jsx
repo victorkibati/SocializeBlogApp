@@ -1,5 +1,4 @@
 import "./settings.css";
-import Sidebar from "../../components/sidebar/Sidebar";
 import { useState } from "react";
 import { getUsers, saveUsers, getCurrentUser, setCurrentUser, clearCurrentUser } from "../../utils/storage";
 import { useNavigate } from "react-router-dom";
@@ -87,7 +86,6 @@ export default function Settings() {
           </button>
         </form>
       </div>
-      <Sidebar />
     </div>
   );
 }
